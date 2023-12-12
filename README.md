@@ -1,24 +1,14 @@
-# README
+# rails7-sandbox
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Rails練習用のリポジトリ
 
-Things you may want to cover:
+## ローカル開発環境DBの用意
 
-* Ruby version
+Docker ComposeでMySQL環境を用意しています
+```
+docker compose up -d
+```
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+詳細は以下参照
+- `docker-compose.yml`
+- `config/database.yml`
