@@ -2,10 +2,11 @@
 
 Rails練習用のリポジトリ
 
-## ローカル開発環境DBの用意
+## ローカル開発環境の用意
 
-Docker ComposeでMySQL環境を用意しています
+Docker Composeで開発環境を用意しています
 ```
+docker compose build
 docker compose up -d
 ```
 

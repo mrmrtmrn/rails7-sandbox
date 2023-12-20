@@ -22,7 +22,7 @@ development:
   database: rails7_sandbox_development
   username: user
   password: password
-  host: 127.0.0.1
+  host: db
   port: 3306
 
 # Warning: The database defined as "test" will be erased and
